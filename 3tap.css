@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tanks{
+    display: flex;
+    gap: 100px;
+}
+#tanksone{
+     margin-top: 50px;
+     margin-left: 50px;
+}
+#tank-one{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    border-top: 0px;
+    padding-top: 50px;
+}
+#water-red{
+    background-color: red;
+    width: 300px;
+    height: 400px;
+}
+#watertap-one{
+    position: relative;
+}
+#pipe0{
+    background-color: brown;
+    width: 80px;
+    height: 10px;
+    position: absolute;
+    left: 303px;
+    top: -10px;
+}
+#pipe1{
+    background-color: brown;
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left:383px;
+    top: -10px;
+}
+#tap-one{
+    background-color: black;
+    width: 25px;
+    height: 8px;
+    border-style: none;
+    position: absolute;
+    left: 375px;
+    top: -18px;
+}
+#flow-red{
+    position: absolute;
+    width: 10px;
+    height: 200px;
+    overflow: hidden;
+    left: 383px;
+    top: 20px;
+    z-index: 999;
+}
+
+#tankstwo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#tank-two{
+   width: 300px;
+   height: 400px;
+   border: 2px solid black;
+   border-top: 0px;
+   padding-top: 50px;
+}
+#water-green{
+   background-color:green;
+   width: 300px;
+   height: 400px;
+}
+#watertap-two{
+   position: relative;
+}
+#pipe2{
+   background-color: brown;
+   width: 80px;
+   height: 10px;
+   position: absolute;
+   left: 303px;
+   top: -10px;
+}
+#pipe3{
+   background-color: brown;
+   width: 10px;
+   height: 30px;
+   position: absolute;
+   left:383px;
+    top: -10px;
+}
+#tap-two{
+   background-color: black;
+   width: 25px;
+   height: 8px;
+   border-style: none;
+   position: absolute;
+   left: 375px;
+   top: -18px;
+}
+#flow-green{
+   position: absolute;
+   width: 10px;
+   height: 200px;
+   overflow: hidden;
+   left: 383px;
+   top: 20px;
+   z-index: 999;
+}
+
+#tanksthree{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#tank-three{
+   width: 300px;
+   height: 400px;
+   border: 2px solid black;
+   border-top: 0px;
+   padding-top: 50px;
+}
+#water-blue{
+   background-color:blue;
+   width: 300px;
+   height: 400px;
+}
+#watertap-three{
+   position: relative;
+}
+#pipe4{
+   background-color: brown;
+   width: 80px;
+   height: 10px;
+   position: absolute;
+   left: 303px;
+   top: -10px;
+}
+#pipe5{
+   background-color: brown;
+   width: 10px;
+   height: 30px;
+   position: absolute;
+   left:383px;
+   top: -10px;
+}
+#tap-three{
+   background-color: black;
+   width: 25px;
+   height: 8px;
+   border-style: none;
+   position: absolute;
+   left: 375px;
+   top: -18px;
+}
+#flow-blue{
+   position: absolute;
+   width: 10px;
+   height: 200px;
+   overflow: hidden;
+   left: 383px;
+   top: 20px;
+   z-index: 999;
+}
+
+#container{
+    width:1400px;  
+    height: 300px;
+    border: 1px solid black;
+    border-top: 1px solid white;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+#river{
+    background-color: lightskyblue;
+}
+
